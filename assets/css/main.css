@@ -1,0 +1,332 @@
+@charset "UTF-8";
+
+body{
+	background-color:#fff;
+	padding:0px;
+	margin:0px;
+	font-family: 'PT Sans', sans-serif;
+	font-size:90%;
+}
+a:link, a:active, a:visited{
+	color:#62D484;
+	text-decoration:none;
+}
+a:hover{
+	color:#88E8A5;
+}
+img{
+	border:0px;
+}
+input[type=submit]{
+	background-color:#658EC7;
+	border:1px solid #478a5b;
+	padding:5px;
+	min-width:300px;
+	border-radius:5px;
+	color:#fff;
+	font-family: 'Alegreya Sans', sans-serif;
+	text-transform:uppercase;
+	font-size:150%;
+}
+input[type=text], input[type=password]{
+	min-width:300px;
+	border-radius:5px;
+	border:1px solid #62D484;
+	padding:10px;
+}
+textarea{
+	min-width:300px;
+	border-radius:5px;
+	border:1px solid #62D484;
+	padding:2px;
+}
+div{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+footer{
+	clear:both;
+	background-color:#62D484;
+	height:100px;
+}
+header{
+	background-color:#62D484;
+	display:table;
+	width:100%;
+}
+nav{
+	margin-top:-10px;
+}
+nav ul li{
+	float:left;
+	width:17%;
+	height:35px;
+	margin-bottom:15px;
+	border-right:1px solid #88E8A5;
+	text-align:center;
+}
+nav ul li a:link, 
+nav ul li a:active, 
+nav ul li a:visited, 
+nav ul li a:hover{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size:150%;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#fff;
+}
+nav ul li.profile{
+	border-right:0px;
+	text-align:right;
+}
+#cont{
+	max-width:100%;
+	margin:0px auto;
+	background-color:#88E8A5;
+}
+#playlist_cont{
+	width:20%;
+	float:left;
+	padding:5px;
+	min-height:500px;
+}
+#left_cont{
+	width:80%;
+	background-color:#fff;
+	float:left;
+	min-height:500px;
+	overflow:hidden;
+}
+#searchbox{
+	float:right;
+	width:250px;
+	height:25px;
+	border-radius:8px;
+	border:0px;
+	margin-right:25px;
+}
+#search_cont{
+	position:relative;
+	width:100%;
+	display:block;
+	height:auto;
+}
+#search_results{
+	background-color:#fff;
+	position:absolute;
+	border:1px solid #000;
+	overflow:hidden;
+	width:300px;
+	right:25px;
+	top:-20px;
+	padding:5px;
+	display:none;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+#feedback{
+	margin-left:10px;
+	margin-right:10px;
+	background-color:#8B6862;
+	color:#fff;
+	width:95%;
+	border-radius:5px;
+	/*display:none;*/
+}
+.header_avatar{
+	width:30px;
+	margin-right:10px;
+	border-radius:3px;
+}
+.form_enclose{
+	max-width:400px;
+	background-color:#dbf7e3;
+	margin:0px auto;
+	border-radius:5px;
+	padding:10px;
+	display:inline-block;
+}
+.playlist_cont.signedout{
+	color:#fff;
+	text-align:center;
+	font-family: 'Alegreya Sans', sans-serif;
+	text-transform:uppercase;
+	padding-top:20px;
+}
+.footer_left{
+	display:block;
+	float:left;
+	width:400px;
+	margin-left:75px;
+	padding:10px;
+	color:#fff;
+	margin-top:10px;
+}
+.footertext a{
+	color:#fff;
+}
+.footer_right{
+	display:block;
+	float:right;
+	width:400px;
+	text-align:right;
+	margin-right:200px;
+	padding:10px;
+	color:#fff;
+	margin-top:10px;
+}
+.footer_right img{
+	margin-left:50px;
+}
+.main_sect{
+	padding:10px;
+}
+.column_left{
+	width:50%;
+	float:left;
+	text-align:center;
+}
+.profile_section{
+	float:left;
+	padding:10px;
+}
+.profile_section h2{
+	text-align:left;
+}
+.profile_section img{
+	border-radius:10px;
+}
+.center{
+	margin:0px auto;
+	width:100%;
+	text-align:center;
+}
+.center h1, h2{
+	color:#62D484;
+}
+.friends_box{
+	background-color:#e7f7eb;
+	margin:0px auto;
+	width:100%;
+	min-height:85%;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.smalltext{
+	float:right;
+	margin-right:5px;
+	font-size:60%;
+	text-transform:lowercase;
+}
+.smalltext a:link, a:visited{
+	text-transform:lowercase;
+}
+.playlist_list li{
+	list-style:none;
+	border:1px solid #ccc;
+	border-left:4px solid #658EC7;
+	background: -webkit-linear-gradient(top, #fff, #f3f3f3);
+	float:left;
+	width:230px;
+	padding:5px;
+	text-align:left;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	border-radius:5px;
+}
+
+.album_list li{
+	list-style:none;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+.album_list > li{
+	margin-bottom:25px;
+	margin-top:15px;
+	margin-right:45px;
+	width:275px;
+	display:inline-block;
+	vertical-align:top;
+}
+.upload_icons{
+	float:right;
+}
+.band_name_right{
+	float:right;
+	margin-right:50px;
+}
+.band_cont{
+	float:left;
+	max-width:70%;
+}
+.band_cont.last{
+	margin-left:15px;
+	max-width:600px;
+	text-align:justify;
+}
+.band_cont_r{
+	float:right;
+}
+.band_albums{
+	clear:both;
+}
+.band_albums h2{
+	margin-left:40px;
+	color:#62D484;
+}
+.albumlist_art{
+	width:50px;
+	margin-right:20px;
+	border-radius:5px;
+	border:1px solid #000;
+}
+.band_faved{
+	margin-right:10px;
+	color:#62D484;
+}
+.searchlist{
+	margin-top:5px;
+	margin-left:-35px;
+}
+.searchlist li{
+	list-style:none;
+	margin-bottom:5px;
+}
+.band_page_cont{
+	margin:20px;
+}
+.band_cont2{
+	float:left;
+	margin:10px;
+	border:1px solid #ccc;
+	border-left:4px solid #658EC7;
+	padding:5px;
+	background: -webkit-linear-gradient(top, #fff, #f3f3f3);
+	width:300px;
+	border-radius:5px;
+}
+.about{
+	max-width:500px;
+	margin:0px auto;
+	text-align:justify;
+}
+.message_li{
+	margin-bottom:50px;
+}
+.message_li li{
+	list-style:none;
+	border:1px solid #ccc;
+	border-left:4px solid #658EC7;
+	background: -webkit-linear-gradient(top, #fff, #f3f3f3);
+	float:left;
+	width:300px;
+	padding:5px;
+	text-align:left;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	border-radius:5px;
+}

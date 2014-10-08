@@ -1,0 +1,1 @@
+<div class='center'><h2>Goodbye!<br /><br />come back soon.</h2></div>
